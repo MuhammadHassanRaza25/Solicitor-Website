@@ -1,0 +1,1092 @@
+                 /* Navbar Background image*/
+header{
+    height: 120vh;
+    min-height: 400px;
+    background-image: url(Images/solicitor\ banner.jpg);
+    background-size: cover;
+}
+              /* Navbar Start */
+.navbar{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+.navbar-brand{
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Playfair Display", serif;
+}
+.navbar-brand:hover{
+    color: white;
+}
+#home{
+    color: white !important;
+}
+li a{
+    color: rgba(255, 255, 255, 0.7) !important;
+    font-weight: 200;
+}
+li a:hover{
+    color: white !important;
+}
+.dropdown-item{
+    color: black !important;
+}
+.dropdown-item:hover{
+    color: blue !important;
+}
+.navbar-toggler{
+    border: 2px solid gray;
+    background-color:white;
+}
+              /* Navbar End */
+.text{
+    position: absolute;
+    top:35%;
+    left:50%;
+    color: white;
+}
+.text h1{
+    font-size:60px;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+}
+.text p{
+    color:rgba(255, 255, 255, 0.7) ;
+    margin-top:7%;
+}
+            /* 2 buttons */
+#os{ 
+    padding: 15px 30px;
+    background-color:#037ef3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+#os:hover{
+    box-shadow: 1px 1px 5px gray;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+#cu{ 
+    padding: 15px 30px;
+    background-color:transparent;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid white;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+#cu:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+               /* 2 buttons end*/
+               
+               /* bdiv1 start */
+.Bdiv1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1b1c1e;
+}
+#os1{
+    padding: 15px 30px;
+    background-color:#037ef3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+#os1:hover{
+    box-shadow: 1px 1px 5px gray;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+.sidetext h1{
+    margin-bottom:10%;
+    margin-top: 10%;
+    color: white;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+}
+.sidetext p{
+    margin-bottom:10%;
+    margin-top: 10%;
+    color: #737373;
+    font-weight: 600;
+}
+.person img{
+    width: 80%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}      
+        /* bdiv1 end */
+
+         /* bdiv2 start */
+.Bdiv2{
+    background-color: #1e1f21;
+}
+.Bdiv2 h1{
+    color: white;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+          /* card start */
+.cardp{
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      margin-top:5%;
+      margin-left:3%;
+}
+.card{
+    width:30%;
+    background-color: #1e1f21;
+    border: none;
+}
+.card img{
+    width: 90px;
+}
+.card h2{
+    color: white;
+}
+.card p{
+    color: #737373;
+    font-weight: 600;
+    font-size: 13px;
+}
+#panch{
+    margin-bottom: 5%;
+    margin-top:3%;
+}
+           /* card end*/
+            /* bdiv2 end */
+
+        /* bdiv3 start */
+.Bdiv3{
+    background-color: #1b1c1e;
+}
+.Bdiv3 h1{
+    color: white;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+.img-textP{
+       display: flex;
+       justify-content: space-evenly;
+       align-items: center;
+}
+.hummer img{
+    width: 90%;
+    margin-top: 3%;
+}
+.TEXT h2 {
+     color: white;
+     font-family: "Playfair Display", serif;
+     font-weight: 300;
+}
+.TEXT p{
+    color: #737373;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 5%;
+}
+#RMbtn{
+    padding: 15px 30px;
+    background-color:#037ef3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+    margin-top: 5%;
+}
+#RMbtn:hover{
+    box-shadow: 1px 1px 5px gray;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+       /* bdiv3 end */
+ 
+       /****** Bdiv4 start *******/
+ .Bdiv4{
+    background-color: #1b1c1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+          /****** SLIDER MAKING ⬇ *******/
+.Bdiv4 nav{
+    position: relative;
+    height: 50px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+}
+.Bdiv4 nav::after{
+    content: '';
+    background-color: #737373;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 47px;
+}
+.Bdiv4 nav label{
+    position: relative;
+    display: block;
+    color: white;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    filter: blur(0.4px);
+}
+
+#Se:checked ~ nav label .In,
+#Se:checked ~ nav label .Se,
+#Se:checked ~ nav label .Cr,
+
+input[type='radio']{
+    display: none;
+}
+.Bdiv4 nav .slider{
+    position: absolute;
+    height: 3px;
+    border-radius: 10px;
+    background-color: white;
+    border-radius: 20px;
+    width: 30%;
+    z-index: 1;
+    left: 0;
+    bottom: 0;
+    transition: all 0.3s ease;
+}
+#In:checked ~ nav .slider{
+    left: 0%;
+}
+#Se:checked ~ nav .slider{
+    left: 35%;
+}
+#Cr:checked ~ nav .slider{
+    left: 70%;
+}
+.TEXT-IMGPARENT{
+    display: flex;
+    margin-top: 5%;
+    gap:20%;
+    margin-left: 15%;
+    align-items: center;
+}
+.Text h1{
+    color: white;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+}
+.Text p{
+    color: #737373;
+    font-weight: 600;
+    font-size: 10px;
+}
+.Text #btn99{
+    padding: 15px 30px;
+    background-color:#037ef3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+    margin-top: 7%;
+}
+.Text #btn99:hover{
+    box-shadow: 1px 1px 5px gray;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+.content .IMG img{
+    width:70%;
+}
+.TEXT-IMGPARENT2{
+    display: flex;
+    margin-top: 5%;
+    gap:20%;
+    margin-left: 7%;
+    align-items: center;
+}
+.Text2 h1{
+    color: white;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+}
+.Text2 p{
+    color: #737373;
+    font-weight: 600;
+    font-size: 10px;
+}
+.Text2 #btn992{
+    padding: 15px 30px;
+    background-color:#037ef3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+    margin-top: 7%;
+}
+.Text2 #btn99:hover{
+    box-shadow: 1px 1px 5px gray;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+.content .IMG2 img{
+    width:100%;
+}
+.TEXT-IMGPARENT3{
+    display: flex;
+    margin-top: 5%;
+    gap:20%;
+    margin-left: 7%;
+    align-items: center;
+}
+.Text3 h1{
+    color: white;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+}
+.Text3 p{
+    color: #737373;
+    font-weight: 600;
+    font-size: 10px;
+}
+.Text3 #btn993{
+    padding: 15px 30px;
+    background-color:#037ef3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+    margin-top: 7%;
+}
+.Text3 #btn99:hover{
+    box-shadow: 1px 1px 5px gray;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+.content .IMG3 img{
+    width:100%;
+}
+section{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section .content{
+    display: none;
+    margin-bottom: 20px;
+}
+#In:checked ~ section .content-1{
+    display: block;
+}
+#Se:checked ~ section .content-2{
+    display: block;
+}
+#Cr:checked ~ section .content-3{
+    display: block;
+}
+             /* Slider making end */
+.Bdiv5{
+    background-color: #1b1c1e;
+}
+.Bdiv5 h1{
+    color: white;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    padding-left: 8%;
+    padding-top: 20%;
+    font-size: 50px;
+}
+.Bdiv5 .sqparent{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.Bdiv5 .Squares{
+    background-color:#0f0f11;
+    display: flex;
+    gap: 20px;
+    width: 30%;
+    padding: 20px;
+    padding-bottom: 80px;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+.Bdiv5 .Squares p{
+    color: white;
+    font-size: 20px;
+}
+.Bdiv5 .Squares:hover{
+    background-color: #037ef3;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}  
+.Bdiv6{
+    background-color: #1b1c1e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20%;
+}
+.Bdiv6 h1{
+    color: white;
+    padding-top: 15%;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+.profiles{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 4%;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.profiles:hover{
+    box-shadow: 1px 1px 5px #037ef3;
+}
+.profiles img{
+    border-radius: 50%;
+    width: 50px;
+}
+.profiles p{
+    color: #037ef3;
+    font-weight: 700;
+}
+#PARA p{
+    color: white;
+    font-size:25px;
+    padding-top: 20%;
+}
+.Bdiv7{
+    background-color: #1b1c1e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15%;
+}
+.Bdiv7 h1{
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+    font-family: "Playfair Display", serif;
+}
+.Bdiv7 p{
+    color: gray;
+    font-weight: 700;
+}
+.Bdiv8{
+    background-color: #1b1c1e;
+    padding-top: 20%;
+}
+.containerbox{
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 5%;
+  background-color:#1e1f21;
+}
+.box{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.box i{
+    color: white;
+}
+.box p{
+  color: gray;
+  text-decoration: underline;
+  width: 70%;
+  text-align: center;
+  transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+.box p:hover{
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+.Bdiv9{
+    background-color: #1b1c1e;
+    padding-top: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Bdiv9 h1{
+    color: white;
+    font-family: "Playfair Display", serif;
+}
+.Bdiv9 p{
+    color: gray;
+    font-weight: 700;
+    font-size: 13px;
+}
+#Bdiv9btn{
+    padding: 15px 30px;
+    background-color:#037ef3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+    margin-top: 2%;
+}
+#Bdiv9btn:hover{
+    box-shadow: 1px 1px 5px gray;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+.Bdiv9img img{
+    width: 90%;
+}
+.FORM{
+    background-color:#1b1c1e;
+    padding-top: 10%;
+}
+.FORM h1{
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+    font-family: "Playfair Display", serif;
+    margin-left: 10%;
+    margin-bottom: 3%;
+}
+.FORM form{
+    text-align: center;
+}
+.FORM form input{
+    width: 40%;
+    padding: 15px;
+    border-radius: 5px;
+    padding-left: 1%;
+    margin-bottom: 0.3%;
+    background-color: #1e1f21;
+    color: white;
+    border: none;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+.FORM form input:focus{
+    outline: none;
+}
+.FORM form input::placeholder{
+    color: gray;
+    font-weight: 600;
+}
+.FORM form input:focus::placeholder{
+    padding-left: 4%;
+    color: white;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+.FORM textarea{
+    width: 80%;
+    height: 200px;
+    border: none;
+    padding-left: 1%;
+    background-color: #1e1f21;
+    color: white;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+.FORM form textarea:focus{
+    outline: none;
+}
+.FORM form textarea::placeholder{
+    color: gray;
+    font-weight: 600;
+}
+.FORM form textarea:focus::placeholder{
+    padding-left: 2%;
+    color: white;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+#formbtn{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10%;
+    padding: 15px 30px;
+    background-color:#037ef3;
+    color: white;
+    border: none;
+    font-size: 12px;
+    border-radius: 5px;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+#formbtn:hover{
+    box-shadow: 1px 1px 5px gray;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+.footer{
+    background-color: #1b1c1e;
+    padding-top: 15%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer h3{
+    color: white;
+    font-weight: 700;
+    font-family: "Playfair Display", serif;
+}
+.footer p{
+    color: gray;
+    font-weight: 600;
+}
+.footer p:hover{
+    color: white;
+}
+.flinks a{
+    color: gray;
+    text-decoration: none;
+    font-weight: 600;
+}
+.flinks a:hover{
+    color: #037ef3;
+}
+.icon{
+    margin-top: 5%;
+    font-size: 30px;
+    gap: 20px;
+    color: gray;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    background-color: #1b1c1e;
+    padding-top: 5%;
+    color: gray;
+    font-weight: 600;
+}
+@media (max-width:1024px){
+    header{
+        height: 120vh;
+        min-height: 400px;
+        background-image: url(Images/solicitor\ banner.jpg);
+        background-size: cover;
+        background-position-x: -900px;
+    }
+    .Bdiv1{
+        padding-left: 10%;
+        gap: 50px;
+    }
+    .Bdiv3{
+        padding-left: 2%;
+    }
+    .Bdiv9{
+        padding-left: 10%;
+        gap: 50px;
+    }
+}
+@media (max-width:880px){
+    header{
+        height: 120vh;
+        min-height: 400px;
+        background-image: url(Images/solicitor\ banner.jpg);
+        background-size: cover;
+        background-position-x: -550px;
+    }
+    .Bdiv1{
+        padding-left: 15%;
+    }
+    .text{
+        font-size: x-small;
+    }
+    .text h1{
+        font-size:20px;
+    }
+    .sidetext h1{
+        font-size: 20px;
+    }
+    .sidetext p{
+        font-size: 8px;
+    }
+    .sidetext #os1{
+        font-size: 10px;
+    }
+    .person img{
+        width:45%;
+        margin-left: 20%;
+    }
+    .Bdiv2{
+        text-align: center;
+    }
+    .Bdiv2 h1{
+        margin-right: 8%;
+    }
+    .cardp{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card{
+        width:70%;
+    }
+    .card img{
+        margin-left: 42%;
+    }
+    .Bdiv3 h1{
+        font-size: 25px;
+    }
+    .Bdiv3 .TEXT{
+        margin-right: 15%;
+    }
+    .Bdiv3 .TEXT p{
+        font-size: 8px;
+    }
+    .Bdiv3 #RMbtn{
+        font-size: 10px;
+    }
+    .Bdiv3 .hummer img{
+        width: 50%;
+        margin-left: 15%;
+    }
+    .Bdiv4 .n label{
+        font-size: 10px;
+    }
+    .Bdiv4 .Text h1{
+        font-size: 25px;
+    }
+    .Bdiv4 .IMG img{
+        width:90%;
+    }
+    .Bdiv4 .Text #btn99{
+        font-size: 10px;
+    }
+    .Bdiv4 .Text2 h1{
+        font-size: 25px;
+    }
+    .Bdiv4 .IMG2 img{
+        width:90%;
+    }
+    .Bdiv4 .Text2 #btn992{
+        font-size: 10px;
+    }
+    .Bdiv4 .Text3 h1{
+        font-size: 20px;
+    }
+    .Bdiv4 .IMG3 img{
+        width:90%;
+    }
+    .Bdiv4 .Text3 #btn993{
+        font-size: 10px;
+    }
+    .Bdiv5 h1{
+        margin-left: 24%;
+    }
+    .Bdiv5 .sqparent{
+        flex-wrap: wrap;
+    }
+    .Bdiv5 .Squares{
+        width: 50%;
+    }
+    .Bdiv6 h1{
+        font-size: 30px;
+        margin-left: 7%;
+    }
+    .Bdiv6 .profiles img{
+        width: 30px;
+    }
+    .Bdiv6 .profiles p{
+        font-size: 12px;
+    }
+    .Bdiv6 #PARA p{
+        font-size:15px;
+    }
+    .Bdiv7 h1{
+        font-size: 30px;
+    }
+    .Bdiv7 p{
+       font-size: 12px;
+    }
+    .Bdiv8 .containerbox{
+        flex-wrap: wrap;
+        padding-left:16%;
+    }
+    .Bdiv8 .box{
+        width:45%;
+    }
+    .Bdiv9text{
+        margin-left:10%;
+    }
+    .Bdiv9 h1{
+      font-size: 25px;
+    }
+    .Bdiv9 p{
+        font-size: 10px;
+    }
+    #Bdiv9btn{
+       font-size: 10px;
+    }
+    .Bdiv9img img{
+        width: 60%;
+        margin-left: 20%;
+    }
+}
+@media (max-width:560px){    
+    header{
+        height: 120vh;
+        min-height: 400px;
+        background-image: url(Images/solicitor\ banner.jpg);
+        background-size: cover;
+        background-position-x: -500px;
+    }
+    .Bdiv1 .sidetext p{
+      font-size: 5px;
+    }
+    .Bdiv1 .sidetext #os1{
+        font-size: 6px;
+        padding: 10px;
+    }
+    .Bdiv3 h1{
+        font-size: 17px;
+    }
+    .Bdiv3 .TEXT h2{
+        font-size: 10px;
+    }
+    .Bdiv3 .TEXT p{
+        font-size: 5px;
+    }
+    .Bdiv3 #RMbtn{
+        font-size: 4px;
+        padding: 10px;
+    }
+    .Bdiv4 .n label{
+        font-size: 7px;
+    }
+    .Bdiv4 .Text h1{
+        font-size: 20px;
+    }
+    .Bdiv4 .IMG img{
+        width:90%;
+    }
+    .Bdiv4 .Text #btn99{
+        font-size: 7px;
+        padding: 10px;
+    }
+    .Bdiv4 .Text2 h1{
+        font-size: 20px;
+    }
+    .Bdiv4 .IMG2 img{
+        width:90%;
+    }
+    .Bdiv4 .Text2 #btn992{
+        font-size: 7px;
+        padding: 10px;
+    }
+    .Bdiv4 .Text3 h1{
+        font-size: 20px;
+    }
+    .Bdiv4 .IMG3 img{
+        width:90%;
+    }
+    .Bdiv4 .Text3 #btn993{
+        font-size: 7px;
+        padding: 10px;
+    }
+    .Bdiv5 h1{
+        margin-left: 25%;
+        font-size: 30px;
+    }
+    .Squares p{
+        font-size: 10px !important;
+    }
+    .Bdiv6 .profiles img{
+        width: 25px;
+    }
+    .Bdiv6 .profiles p{
+        font-size: 8px;
+    }
+    .Bdiv6 #PARA p{
+        font-size: 10px;
+    }
+    .Bdiv7 h1{
+        font-size: 20px;
+    }
+    .Bdiv7 p{
+       font-size: 8px;
+    }
+    .Bdiv8 .containerbox{
+        flex-wrap: wrap;
+        padding-left:27%;
+    }
+    .Bdiv8 .box{
+        width:80%;
+    }
+    .Bdiv9 p{
+        font-size: 7px;
+    }
+    #Bdiv9btn{
+        font-size: 7px;
+        padding: 10px;
+     }
+     .footer h3{
+         font-size: 10px;
+     }
+     .footer p{
+        font-size: 10px;
+    }
+    .flinks a{
+        font-size: 10px;
+    }
+    .name{
+        font-size: 10px;
+    }
+}
+@media (max-width:375px){
+    .person img{
+        width: 80%;
+        margin-left: 5%;
+    }
+    .btns #os{
+        margin-bottom: 3%;
+    }
+    .card p{
+        font-size: 8px;
+    }
+    .card{
+        width:70%;
+    }
+    .card img{
+        margin-left: 30%;
+    }
+    .Bdiv3 .TEXT p{
+        width: 200%;
+        padding-right: 5%;
+    }
+    .Bdiv3 .hummer img{
+        width: 70%;
+    }
+    .Bdiv4 .n label{
+        font-size: 5px;
+    }
+    .Bdiv4 .Text h1{
+        font-size: 10px;
+    }
+    .Bdiv4 .Text p{
+        font-size: 5px;
+    }
+    .Bdiv4 .Text #btn99{
+        font-size: 5px;
+    }
+    .Bdiv4 .Text2 h1{
+        font-size: 10px;
+    }
+    .Bdiv4 .Text2 p{
+        font-size: 5px;
+    }
+    .Bdiv4 .Text2 #btn992{
+        font-size: 5px;
+    }
+    .Bdiv4 .Text3 h1{
+        font-size: 10px;
+    }
+    .Bdiv4 .Text3 p{
+        font-size: 5px;
+    }
+    .Bdiv4 .Text3 #btn993{
+        font-size: 5px;
+    }
+    .Bdiv5 h1{
+        margin-left: 22%;
+        font-size: 25px;
+    }
+    .Bdiv7 h1{
+        font-size: 13px;
+    }
+    .Bdiv7 p{
+       font-size: 6px;
+    }
+    .Bdiv8 .box{
+        width:90%;
+    }
+    .Bdiv9 h1{
+        font-size: 12px;
+    }
+    .Bdiv9 p{
+        font-size: px;
+        width: 200%;
+    }
+    #Bdiv9btn{
+        font-size: 5px;
+        padding: 10px;
+     }
+     .FORM h1{
+        font-size: 25px;
+     }
+     input{
+        padding-left: 2% !important;
+     }
+     input::placeholder{
+        font-size: 10px;
+     }
+     textarea{
+        padding-left: 2% !important;
+     }
+     textarea::placeholder{
+        font-size: 10px;
+     }
+     #formbtn{
+        font-size: 10px;
+     }
+}
